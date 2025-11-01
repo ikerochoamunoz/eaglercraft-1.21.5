@@ -1,0 +1,100 @@
+[01:37:09] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-LTS; Microsoft Microsoft-11369942) on Linux 6.8.0-1030-azure (amd64)
+[01:37:09] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.5-113-main@ba7fb23 (2025-06-10T23:34:22Z) for Minecraft 1.21.5
+[01:37:09] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[01:37:11] [ServerMain/INFO]: [PluginInitializerManager] Initialized 13 plugins
+[01:37:11] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+ - EconomyShopGUI (6.15.1)
+[01:37:11] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (12):
+ - CustomCrafting (4.19.1.0), Essentials (2.21.2), LuckPerms (5.5.17), NBTAPI (2.15.3), SCore (5.25.10.26), SkBee (3.13.1), Skript (2.13.0), Vault (1.7.3-b131), ViaBackwards (5.3.2), ViaRewind (4.0.7), ViaVersion (5.3.2), WolfyUtilities (4.19.1.2)
+[01:37:18] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[01:37:22] [ServerMain/INFO]: Loaded 1373 recipes
+[01:37:22] [ServerMain/INFO]: Loaded 1484 advancements
+[01:37:22] [Server thread/INFO]: Starting minecraft server version 1.21.5
+[01:37:22] [Server thread/INFO]: Loading properties
+[01:37:22] [Server thread/INFO]: This server is running Paper version 1.21.5-113-main@ba7fb23 (2025-06-10T23:34:22Z) (Implementing API version 1.21.5-R0.1-SNAPSHOT)
+[01:37:22] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[01:37:22] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:37:22] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:37:24] [Server thread/ERROR]: Encountered an unexpected exception
+java.lang.ExceptionInInitializerError: null
+	at net.kyori.adventure.text.minimessage.MiniMessageImpl$Instances.<clinit>(MiniMessageImpl.java:56) ~[adventure-text-minimessage-4.21.0.jar:?]
+	at net.kyori.adventure.text.minimessage.MiniMessage.miniMessage(MiniMessage.java:55) ~[adventure-text-minimessage-4.21.0.jar:?]
+	at io.papermc.paper.configuration.serializer.ComponentSerializer.deserialize(ComponentSerializer.java:19) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at io.papermc.paper.configuration.serializer.ComponentSerializer.deserialize(ComponentSerializer.java:11) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at org.spongepowered.configurate.serialize.ScalarSerializer.deserialize(ScalarSerializer.java:156) ~[configurate-core-4.2.0-20250225.064233-204.jar:?]
+	at org.spongepowered.configurate.serialize.ScalarSerializer.deserialize(ScalarSerializer.java:121) ~[configurate-core-4.2.0-20250225.064233-204.jar:?]
+	at org.spongepowered.configurate.objectmapping.ObjectMapperImpl.load0(ObjectMapperImpl.java:76) ~[configurate-core-4.2.0-20250225.064233-204.jar:?]
+	at org.spongepowered.configurate.objectmapping.ObjectMapperImpl.load(ObjectMapperImpl.java:56) ~[configurate-core-4.2.0-20250225.064233-204.jar:?]
+	at org.spongepowered.configurate.objectmapping.ObjectMapperFactoryImpl.deserialize(ObjectMapperFactoryImpl.java:230) ~[configurate-core-4.2.0-20250225.064233-204.jar:?]
+	at org.spongepowered.configurate.serialize.TypeSerializer.deserialize(TypeSerializer.java:96) ~[configurate-core-4.2.0-20250225.064233-204.jar:?]
+	at org.spongepowered.configurate.objectmapping.ObjectMapperImpl.load0(ObjectMapperImpl.java:76) ~[configurate-core-4.2.0-20250225.064233-204.jar:?]
+	at org.spongepowered.configurate.objectmapping.ObjectMapperImpl.load(ObjectMapperImpl.java:56) ~[configurate-core-4.2.0-20250225.064233-204.jar:?]
+	at org.spongepowered.configurate.objectmapping.ObjectMapperFactoryImpl.deserialize(ObjectMapperFactoryImpl.java:230) ~[configurate-core-4.2.0-20250225.064233-204.jar:?]
+	at org.spongepowered.configurate.serialize.TypeSerializer.deserialize(TypeSerializer.java:96) ~[configurate-core-4.2.0-20250225.064233-204.jar:?]
+	at org.spongepowered.configurate.objectmapping.ObjectMapperImpl.load0(ObjectMapperImpl.java:76) ~[configurate-core-4.2.0-20250225.064233-204.jar:?]
+	at org.spongepowered.configurate.objectmapping.ObjectMapperImpl.load(ObjectMapperImpl.java:56) ~[configurate-core-4.2.0-20250225.064233-204.jar:?]
+	at org.spongepowered.configurate.objectmapping.ObjectMapperFactoryImpl.deserialize(ObjectMapperFactoryImpl.java:230) ~[configurate-core-4.2.0-20250225.064233-204.jar:?]
+	at org.spongepowered.configurate.AbstractConfigurationNode.get0(AbstractConfigurationNode.java:204) ~[configurate-core-4.2.0-20250225.064233-204.jar:?]
+	at org.spongepowered.configurate.AbstractConfigurationNode.get(AbstractConfigurationNode.java:162) ~[configurate-core-4.2.0-20250225.064233-204.jar:?]
+	at org.spongepowered.configurate.ConfigurationNode.get(ConfigurationNode.java:521) ~[configurate-core-4.2.0-20250225.064233-204.jar:?]
+	at org.spongepowered.configurate.ConfigurationNode.require(ConfigurationNode.java:408) ~[configurate-core-4.2.0-20250225.064233-204.jar:?]
+	at io.papermc.paper.configuration.Configurations.lambda$creator$0(Configurations.java:90) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at io.papermc.paper.configuration.Configurations.initializeGlobalConfiguration(Configurations.java:137) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at io.papermc.paper.configuration.Configurations.initializeGlobalConfiguration(Configurations.java:108) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at io.papermc.paper.configuration.PaperConfigurations.initializeGlobalConfiguration(PaperConfigurations.java:219) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:171) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1161) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:308) ~[paper-1.21.5.jar:1.21.5-113-ba7fb23]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.IllegalStateException: Encountered an exception loading service interface net.kyori.adventure.text.minimessage.MiniMessage$Provider
+	at net.kyori.adventure.util.Services.service(Services.java:64) ~[adventure-api-4.21.0.jar:?]
+	at net.kyori.adventure.text.minimessage.MiniMessageImpl.<clinit>(MiniMessageImpl.java:47) ~[adventure-text-minimessage-4.21.0.jar:?]
+	... 29 more
+Caused by: java.util.ServiceConfigurationError: net.kyori.adventure.text.minimessage.MiniMessage$Provider: Error accessing configuration file
+	at java.base/java.util.ServiceLoader.fail(ServiceLoader.java:586) ~[?:?]
+	at java.base/java.util.ServiceLoader$LazyClassPathLookupIterator.parse(ServiceLoader.java:1180) ~[?:?]
+	at java.base/java.util.ServiceLoader$LazyClassPathLookupIterator.nextProviderClass(ServiceLoader.java:1213) ~[?:?]
+	at java.base/java.util.ServiceLoader$LazyClassPathLookupIterator.hasNextService(ServiceLoader.java:1228) ~[?:?]
+	at java.base/java.util.ServiceLoader$LazyClassPathLookupIterator.hasNext(ServiceLoader.java:1273) ~[?:?]
+	at java.base/java.util.ServiceLoader$2.hasNext(ServiceLoader.java:1309) ~[?:?]
+	at java.base/java.util.ServiceLoader$3.hasNext(ServiceLoader.java:1393) ~[?:?]
+	at net.kyori.adventure.util.Services.service(Services.java:58) ~[adventure-api-4.21.0.jar:?]
+	at net.kyori.adventure.text.minimessage.MiniMessageImpl.<clinit>(MiniMessageImpl.java:47) ~[adventure-text-minimessage-4.21.0.jar:?]
+	... 29 more
+Caused by: java.nio.file.NoSuchFileException: /workspaces/eaglercraft-1.21.5/server/versions/1.21.5/paper-1.21.5.jar
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:171) ~[?:?]
+	at java.base/sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:99) ~[?:?]
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1854) ~[?:?]
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1445) ~[?:?]
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:724) ~[?:?]
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251) ~[?:?]
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180) ~[?:?]
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:345) ~[?:?]
+	at java.base/sun.net.www.protocol.jar.URLJarFile.<init>(URLJarFile.java:100) ~[?:?]
+	at java.base/sun.net.www.protocol.jar.URLJarFile.getJarFile(URLJarFile.java:69) ~[?:?]
+	at java.base/sun.net.www.protocol.jar.JarFileFactory.get(JarFileFactory.java:168) ~[?:?]
+	at java.base/sun.net.www.protocol.jar.JarFileFactory.getOrCreate(JarFileFactory.java:91) ~[?:?]
+	at java.base/sun.net.www.protocol.jar.JarURLConnection.connect(JarURLConnection.java:110) ~[?:?]
+	at java.base/sun.net.www.protocol.jar.JarURLConnection.getInputStream(JarURLConnection.java:153) ~[?:?]
+	at java.base/java.util.ServiceLoader$LazyClassPathLookupIterator.parse(ServiceLoader.java:1172) ~[?:?]
+	at java.base/java.util.ServiceLoader$LazyClassPathLookupIterator.nextProviderClass(ServiceLoader.java:1213) ~[?:?]
+	at java.base/java.util.ServiceLoader$LazyClassPathLookupIterator.hasNextService(ServiceLoader.java:1228) ~[?:?]
+	at java.base/java.util.ServiceLoader$LazyClassPathLookupIterator.hasNext(ServiceLoader.java:1273) ~[?:?]
+	at java.base/java.util.ServiceLoader$2.hasNext(ServiceLoader.java:1309) ~[?:?]
+	at java.base/java.util.ServiceLoader$3.hasNext(ServiceLoader.java:1393) ~[?:?]
+	at net.kyori.adventure.util.Services.service(Services.java:58) ~[adventure-api-4.21.0.jar:?]
+	at net.kyori.adventure.text.minimessage.MiniMessageImpl.<clinit>(MiniMessageImpl.java:47) ~[adventure-text-minimessage-4.21.0.jar:?]
+	... 29 more
+[01:37:24] [Server thread/ERROR]: This crash report has been saved to: /workspaces/eaglercraft-1.21.5/server/crash-reports/crash-2025-11-01_01.37.24-server.txt
+[01:37:24] [Server thread/INFO]: Stopping server
+[01:37:24] [Server thread/INFO]: Saving players
+[01:37:24] [Server thread/INFO]: Saving worlds
+[01:37:24] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[01:37:24] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[01:37:24] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[01:37:24] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[01:37:24] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

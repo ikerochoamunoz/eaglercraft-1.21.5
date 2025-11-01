@@ -1,0 +1,18 @@
+00:07:29.407 INFO  Limbo -- Starting server...
+00:07:31.056 INFO  Limbo -- Server started on localhost/127.0.0.1:25566
+00:48:44.077 INFO  Limbo -- Stopping server...
+00:48:44.082 INFO  Limbo -- Server stopped, Goodbye!
+00:49:59.064 INFO  Limbo -- Starting server...
+00:50:01.071 INFO  Limbo -- Server started on localhost/127.0.0.1:25566
+01:25:08.446 INFO  Limbo -- Player Iker connected (/127.0.0.1:54032) [V1_12_2]
+01:25:14.579 INFO  Limbo -- Player Iker disconnected
+01:28:21.893 INFO  Limbo -- Player Iker connected (/127.0.0.1:41606) [V1_12_2]
+01:29:16.729 INFO  Limbo -- Player Iker disconnected
+01:30:36.020 INFO  Limbo -- Player Iker connected (/127.0.0.1:60364) [V1_12_2]
+01:30:40.619 INFO  Limbo -- Player Iker disconnected
+01:34:45.921 INFO  Limbo -- Player Iker connected (/127.0.0.1:52054) [V1_12_2]
+01:35:46.735 ERROR Limbo -- Unhandled exception: 
+io.netty.handler.timeout.ReadTimeoutException: null
+01:35:46.749 INFO  Limbo -- Player Iker disconnected
+01:40:35.110 INFO  Limbo -- Stopping server...
+01:40:35.111 INFO  Limbo -- Server stopped, Goodbye!

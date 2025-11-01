@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1761960885725
+  login: 1761960641239
+money: '0'
+last-account-name: Iker
+logoutlocation:
+  world: 40702d71-2349-4c9e-a96b-2c8ac09c881c
+  world-name: world
+  x: 49.65731972896497
+  y: 134.5328507287587
+  z: 27.786179211124715
+  yaw: 167.548828125
+  pitch: 43.95001983642578
